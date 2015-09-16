@@ -17,8 +17,8 @@
 <form:form action="hello" method="post" commandName="greet">
 
 
-  <form:input path="msg" />
-  <input type="submit" value="Submit" >
+  <form:input id="inputName" path="msg" />
+  <input id="searchButton" type="submit" value="Submit" >
 
 </form:form>
 </body>

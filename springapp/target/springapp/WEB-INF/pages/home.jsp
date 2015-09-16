@@ -11,10 +11,10 @@
 <body>
 	<%--<h1>Message:${greet.msg}</h1>--%>
 	<%--<p th:text="'Message: ' + ${greet.getMsg()}" ></p>--%>
-	<h1>Message:${greet.msg}</h1>
+	<h1>Message:<div id="userFrom">${greet.msg}</div></h1>
 	Time:${greet.currentTime()}
 	Date:${greet.currentDate()}
-	<a href="/hello">Submit another message</a>
+	<a id="submitAnother" href="/hello">Submit another message</a>
 
 </body>
 </html>

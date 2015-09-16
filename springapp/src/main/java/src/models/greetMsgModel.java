@@ -18,7 +18,10 @@ import java.util.Date;
 public class greetMsgModel {
 
     private String msg;
+    private final int value=45;
+    public greetMsgModel(){
 
+    }
 
     public void setMsg(String msg){
         //
